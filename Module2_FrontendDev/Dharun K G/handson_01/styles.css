@@ -13,6 +13,7 @@ header{
     background-color:rgb(127, 157, 197);
     display:flex;
     justify-content: space-between;
+    align-items:center;
 }
 header nav ul li{
     display:inline;
@@ -33,11 +34,11 @@ header nav ul li a{
     padding:5px;
     background-color:orange;
     border:3px solid;
+    transition: all 0.3s ease;
 }
 #hero button:hover{
     background-color:pink;
     padding: 6px;
-    transition: all 0.3s ease;
 }
 .course-card{
     padding:5px;
