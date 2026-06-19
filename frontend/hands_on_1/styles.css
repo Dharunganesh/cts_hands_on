@@ -1,0 +1,48 @@
+html{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    background-color:bisque;
+}
+header{
+    padding:2px;
+    background-color:rgb(127, 157, 197);
+    display:flex;
+    justify-content: space-between;
+}
+header nav ul li{
+    display:inline;
+}
+header nav ul li a{
+    text-decoration:none;
+    color:black;
+}
+#hero{
+    text-align:center;
+    padding:10px;
+}
+#hero button a{
+    color:black;
+    text-decoration:none;
+}
+#hero button{
+    padding:5px;
+    background-color:orange;
+    border:3px solid;
+}
+#hero button:hover{
+    background-color:pink;
+    padding: 6px;
+    transition: all 0.3s ease;
+}
+.course-card{
+    padding:5px;
+    margin:3px;
+    border:1px solid;
+    border-radius:1px;
+    box-shadow: 2px 2px 2px grey;
+}
