@@ -1,6 +1,8 @@
 import mysql.connector
 import time
-connection=mysql.connector.connect(host="localhost",user="root",password="Dharunkg05@",database="college_db")
+import os
+db_password=os.getenv("DB_PASSWORD")
+connection=mysql.connector.connect(host="localhost",user="root",password=db_password,database="college_db")
 cursor=connection.cursor()
 queries_executed=0
 start=time.perf_counter()
